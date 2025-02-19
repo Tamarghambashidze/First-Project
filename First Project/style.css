@@ -1,0 +1,275 @@
+.logo svg{
+    width: 50px;
+    height: 50px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo ul{
+    color: #2d5661;
+    list-style: none;
+    padding: 0;
+    font-family: initial;
+    margin-left: 3px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+header{
+    background-color: white;
+    position: sticky;
+}
+
+.HOME{
+    height: 900px;
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.HOME h1{
+    margin-bottom: 90px !important;
+    font-size: 90px !important;
+}
+
+h1{
+    text-align: center;
+    color: #2d5661;
+    font-family: initial;
+}
+
+.home{
+    margin-top: 100px;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    color: #2d5661;
+    font-size: 50px !important;
+    font-family: initial;
+}
+
+p.firsttxt{
+    text-align: center;
+}
+
+.roundbtn{
+    width: 173px;
+    height: 173px;
+    border-radius: 50% !important;
+    border-color: #2d5661;
+    color: #2d5661;
+    background: transparent;
+}
+
+#btn1{
+    position: absolute;
+    top: -25px;
+    left: 172px;
+}
+
+.btn2:hover, .roundbtn:hover{
+    background-color: #2d5661;
+    color: white;
+    border: none;
+}
+
+.mydiv{
+    padding: 100px;
+    position: relative;
+    top: -270px;
+}
+
+.text2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+div.box1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.home3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home4{
+    margin-top: 100px;
+    background: url(./images/image6.webp);
+    height: 590px;
+    margin-left: 134px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.box2{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.box2 h3{
+    font-size: 25px;
+    color: #2d5661;
+    font-family: initial;
+}
+
+.box2 p{
+    font-size: 14px;
+    font-family: initial;
+}
+
+.home5{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.pictures{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #2d5661;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.column a{
+    text-decoration: none;
+    color: white;
+}
+
+.column a:hover{
+    color: lightgray;
+}
+
+.column ul{
+    list-style: none;
+}
+
+.column svg{
+    width: 100px;
+    height: 100px;
+}
+
+i{
+    margin-right: 5px;
+}
+
+.facilities{
+    text-align: center;
+}
+
+.facilities1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about1, .cards, .registration{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.registration{
+    align-items: center;
+}
+
+.card{
+    width: 30%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+label{
+    font-size: 20px;
+    color: #2d5661;
+}
+
+.inpt{
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-bottom: #2d5661 2px solid;
+}
+
+h4{
+    font-family: inherit;
+    color: #2d5661;
+}
+
+.btn2{
+    border: #2d5661 1px solid;
+    background: transparent;
+    border-radius: 10px;
+    padding: 7px 13px;
+    color: #2d5661;
+}
+
+.best{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+    background-color: #2d5661;
+    padding: 3px 10px;
+    color: white;
+}
